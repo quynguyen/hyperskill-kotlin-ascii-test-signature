@@ -119,6 +119,21 @@ files:
         }
     }
   learner_created: false
+- name: src/signature/Main.kt
+  visible: true
+  text: |+
+    package signature
+
+    fun main() {
+        val str = """
+             _____________
+            | Hyper Skill |
+             ¯¯¯¯¯¯¯¯¯¯¯¯¯
+        """.trimIndent()
+        print(str)
+    }
+
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/71/stages/391/implement
-status: Unchecked
+status: Solved
 record: -1
